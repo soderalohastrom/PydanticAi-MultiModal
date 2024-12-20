@@ -22,8 +22,8 @@ A demonstration project showcasing how to use MultiModal capabilities with Pydan
 ## 🚀 Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/rawheel/Pydantic-ai-Multi-Modal-Example.git
-cd Pydantic-ai-Multi-Modal-Example
+git clone https://github.com/rawheel/Pydantic-ai-MultiModal-Example.git
+cd Pydantic-ai-MultiModal-Example
 ```
 
 2. Set up virtual environment:

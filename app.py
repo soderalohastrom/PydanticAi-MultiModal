@@ -22,12 +22,11 @@ class Summary(BaseModel):
     """
     Structured model for summarizing image content
     """
-    linkedin_profile: str
-    github_profile: str
-    email: str
-    work_experience: str
-    education: str
-    skills: str
+    animals: str
+    setting: str
+    interaction: str
+    oddity: str
+    emotion: str
 
 
 class ImageSummarizer:
@@ -93,11 +92,11 @@ def main():
     """
     # Example image URLs
     image_urls = [
-        'https://raw.githubusercontent.com/rawheel/Pydantic-ai-Multi-Model-Example/main/images/resume.png',
+        'https://test1-emgndhaqd0c9h2db.a01.azurefd.net/images/54d6e0e7-2506-4e17-8c72-0b0c477ec5f5.png',
     ]
 
     # Prompt for any additional instructions
-    prompt = "summarize the resume"
+    prompt = "describe the image in detail"
     # Create summarizer and run analysis
     summarizer = ImageSummarizer()
     summary = summarizer.summarize(image_urls, prompt)
